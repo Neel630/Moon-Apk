@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/darkblue">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="78dp"
+        android:layout_height="92dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="574dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="62dp"
+        android:background="@drawable/moon"
+        android:padding="1dp"
+        android:src="@drawable/moon" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="288dp"
+        android:fontFamily="serif-monospace"
+        android:lineSpacingExtra="6sp"
+        android:text="	The sky was lit by the splendor of the moon So powerful I fell to the ground  Your love has made me sure  I am ready to forsake this worldly life and surrender to the magnificence of your Being"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#3910F7"
+        android:textSize="18dp"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>
